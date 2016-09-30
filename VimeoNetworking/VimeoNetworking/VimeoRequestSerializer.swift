@@ -127,7 +127,7 @@ final public class VimeoRequestSerializer: AFHTTPRequestSerializer
     
     private func setup(apiVersion apiVersion: String)
     {
-        self.setValue("application/vnd.vimeo.*+json; version=\(apiVersion)", forHTTPHeaderField: self.dynamicType.AcceptHeaderKey)
+//        self.setValue("application/vnd.vimeo.*+json; version=\(apiVersion)", forHTTPHeaderField: self.dynamicType.AcceptHeaderKey)
 //        self.writingOptions = .PrettyPrinted
     }
 
